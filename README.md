@@ -18,30 +18,30 @@ This project demonstrates an Azure Functions written in Python using the **isola
 - Visual Studio Code + Azure Extension
 - An active Azure subscription
 
-1. **Clone the Repository**
+### 1. **Clone the Repository**
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 ```
 
-2. **Create and Activate a Virtual Environment**
+### 2. **Create and Activate a Virtual Environment**
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-3. **Create and deploy the function app**
+### 3. **Create and deploy the function app**
 
 Follow the instructions on Microsofts Quickstart guide to creating an Azure function for:
 
 - [Creating a Function App in Azure](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-csharp#publish-the-project-to-azure)
 - [Deploy the project to Azure](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-csharp#deploy-the-project-to-azure)
 
-4. **Set Up an Azure SQL Database and Table**
+### 4. **Set Up an Azure SQL Database and Table**
 
 Follow the [Azure SQL Database create quickstart](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart) to create a serverless Azure SQL Database. The database can be empty or created from the sample dataset AdventureWorksLT.
 
-5. **Connect and Create the ToDo Table**
+### 5. **Connect and Create the ToDo Table**
 
 Use the SQL Querry Editor to connect to the database and run:
 
@@ -53,7 +53,7 @@ CREATE TABLE ToDo (
     url NVARCHAR(200)
 );
 ```
-6. **Update the function app settings**
+### 6. **Update the function app settings**
 
 1. Get the SQL Connection String
 
@@ -103,7 +103,7 @@ CREATE TABLE ToDo (
 
 ---
 
-## 📹 Demo Video
+## Demo Video
 
 Watch a 5-minute walkthrough and demo here:  
 [YouTube Video Link](https://youtu.be/Lv57jBgW7uY)
