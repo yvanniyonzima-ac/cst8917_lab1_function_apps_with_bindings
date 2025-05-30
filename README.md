@@ -20,8 +20,8 @@ This project demonstrates an Azure Functions written in Python using the **isola
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/yvanniyonzima-ac/cst8917_lab1_function_apps_with_bindings.git
+cd cst8917_lab1_function_apps_with_bindings
 ```
 
 ### 2. **Create and Activate a Virtual Environment**
